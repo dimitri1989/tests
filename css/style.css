@@ -1,0 +1,350 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.img-line {
+    width: 100%;
+    height: 2px;
+    background: #E3E3E3;
+}
+
+.nav-item {
+    margin-right: 54px;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-link {
+    color: var(--dark, #000);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* A */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    text-transform: capitalize;
+}
+
+.nav-link:hover {
+    color: rgb(189, 183, 183);
+}
+
+.section-one {
+    background: var(--black-5, rgba(30, 40, 50, 0.05));
+}
+
+.section-colection {
+    min-height: 847px;
+
+    background: var(--black-5, rgba(30, 40, 50, 0.05));
+}
+
+.img__left {
+    position: absolute;
+    top: 79%;
+}
+
+.img__right {
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    top: 314px;
+}
+
+.section-colection__left__title {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Body */
+    font-size: 74px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 55px;
+    /* 74.324% */
+    text-transform: capitalize;
+    margin-top: 140px !important;
+}
+
+.section-colection__left__text {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Paragraph - Larg */
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px;
+    /* 183.333% */
+    text-transform: capitalize;
+}
+
+.btns img {
+    width: 24px;
+    height: 24px;
+}
+
+.btn-product {
+    color: var(--white, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Button - Larg */
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    border-radius: 0;
+    border: 0;
+    background: var(--black, #1E2832);
+}
+
+.btn-product:hover {
+    padding: 10px 20px;
+    border-radius: 0;
+    border: 0;
+    background: var(--black, #273544);
+}
+
+.section-colection__women {
+    margin-top: 50px;
+    padding: 0;
+}
+
+.section-colection__women img {
+    width: 100%;
+    max-width: 442px;
+}
+
+
+.selection-logos_img img {
+    margin-right: 33px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 200px;
+}
+
+.selection-logos_img img:last-of-type {
+    margin-right: 0;
+}
+
+.logosc_text {
+    writing-mode: vertical-rl;
+    transform: rotate(179deg);
+    color: var(--dark, #000);
+
+    font-feature-settings: 'clig' off, 'liga' off;
+    margin: 0;
+    /* Body 2 */
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.cards {
+
+    margin-right: 0px;
+}
+
+.cards img {
+    width: 100%;
+    max-width: 300px;
+    height: 97%;
+}
+
+.img__card img {
+    width: 100%;
+    max-width: 590px;
+
+}
+
+.sextion-newsletter {
+    margin-top: 120px;
+}
+
+.sextion-newsletter__newsletter {
+    color: black;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* H2 */
+
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.bt3 {
+
+    width: 165px;
+    height: 67px;
+    position: relative;
+    margin-right: 39px;
+    margin-bottom: 30px;
+    right: 127px;
+}
+
+.btnss {
+    position: absolute;
+    top: 14px;
+    right: 114px;
+
+
+}
+
+.divB {
+    width: 50px;
+}
+
+.btnss img {
+    width: 30px;
+}
+
+.fil {
+    position: absolute;
+    top: 19px;
+    right: 46px;
+}
+
+.sextion-newsletter__names {
+    width: 720px;
+}
+
+.sextion-newsletter__names__text {
+    color: var(--dark-50, rgba(0, 0, 0, 0.50));
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* H6 */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-right: 50px;
+}
+
+.sextion-newsletter__names__text:last-child {
+    margin-right: 0;
+}
+
+.sextion-newsletter__names__text:hover {
+    cursor: pointer;
+    color: #a8b3be;
+}
+
+.names__items__title {
+    color: var(--dark, #000);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* H6 */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.names__items__content__cost {
+    color: var(--dark, #000);
+    text-align: right;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Span */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.hot {
+    position: absolute;
+    top: 20px;
+}
+
+.names__items__content__costOld {
+    margin-left: 10%
+}
+
+.sextion-newsletter__names__items img {
+    width: 100%;
+}
+
+.section-newsletter__names__items img {
+    width: 100%;
+    max-width: 300px;
+    height: 385px;
+}
+
+.menclass {
+    display: block;
+}
+
+.womenclas {
+    display: block;
+}
+
+.section-zara {
+    min-height: 776px;
+    background: url(../img/b/andrey-zvyagintsev-EQj1ZMpq_VM-unsplash\ 1.svg) no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+
+
+}
+
+.section-zara__logo {
+    position: absolute;
+    right: 0;
+    margin-top: 40px;
+
+}
+
+.section-zara__items {
+    width: 50%;
+    height: 100%;
+    margin-top: 202px;
+    margin-left: 19%;
+
+
+}
+.section-zara__items__text{
+    color: #FFF;
+    /* Paragraph */
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 153.846% */
+    text-transform: capitalize;
+}
+.white-btn{
+    display: inline-flex;
+    padding: 19px 26px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background: #FFF;
+    color: var(--black, #1E2832);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Button - Larg */
+    font-family: Roboto;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
